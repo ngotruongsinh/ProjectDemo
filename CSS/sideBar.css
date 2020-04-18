@@ -1,0 +1,17 @@
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+@media(max-width: 768px){
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
