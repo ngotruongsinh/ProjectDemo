@@ -1,0 +1,12 @@
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+@media(max-width: 768px){
+
+  article #main-col{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
